@@ -24,7 +24,7 @@ jobs:
         run: pip install requests
 
       - name: Run Toffee Token Generator
-        run: python toffee_generator.py
+        run: python tof.py
 
       - name: Auto Commit and Push Playlist
         uses: stefanzweifel/git-auto-commit-action@v5
